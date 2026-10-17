@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arben Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Arben Portfolio</div>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#academic">Academic</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div id="hero" class="hero">
+    <p class="greeting">Hey, I'm</p>
+    <h1>Arben Martinez</h1>
+    <p class="subtitle">BSIT Student | Divine Word College Of Calapan</p>
+  </div>
+
+  <section id="about">
+    <h2>Bio & About Me</h2>
+    <p>Hello! I am Arben Martinez. I am a BSIT Student from Divine Word College Of Calapan.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Git & GitHub Repository Management</li>
+      <li>Public Speaking & Stage Performance</li>
+      <li>UI/UX Layout Design</li>
+    </ul>
+  </section>
+
+  <section id="academic">
+    <h2>Academic</h2>
+
+    <div class="tab-buttons">
+      <button class="tab-btn active" onclick="openTab(event, 'awards')">Awards</button>
+      <button class="tab-btn" onclick="openTab(event, 'certificates')">Certificates</button>
+      <button class="tab-btn" onclick="openTab(event, 'badges')">Badges</button>
+      <button class="tab-btn" onclick="openTab(event, 'credentials')">Credentials</button>
+    </div>
+
+    <div id="awards" class="tab-content active">
+      <h3>Awards</h3>
+      <ul>
+        <li>CCAA S21 - SEPAK TAKRAW CHAMPION</li>
+        <li>REGIONAL PRISAA 2026 THRID RUNNER UP</li>
+      </ul>
+    </div>
+
+    <div id="certificates" class="tab-content">
+      <h3>Certificates</h3>
+      <ul>
+        <li>ONE DAY LEAGUE PARTICIPANT 2025</li>
+        <li>ONE DAY LEAGUE PARTICIPANT 2026</li>
+        <li>Attending Webinar/Training</li>
+        <li>TESDA PASSER</li>
+      </ul>
+    </div>
+
+    <div id="badges" class="tab-content">
+      <h3>Badges</h3>
+      <ul>
+        <li>JavaScript Badge</li>
+        <li>Html & Css Badge</li>
+        <li>Data Communication Badge</li>
+        <li>Data Base Badge </li>
+      </ul>
+    </div>
+
+    <div id="credentials" class="tab-content">
+      <h3>Credentials</h3>
+      <ul>
+        <li>Bachelor of Science in Information Technology</li>
+        <li>JPCS Student Membership</li>
+        <li>MIMAROPA REGIONAL IT CONGRESS</li>
+        <li>Online Training/Webinar</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
